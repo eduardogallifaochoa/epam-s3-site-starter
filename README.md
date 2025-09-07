@@ -34,3 +34,5 @@ After you push to **main**, GitHub Actions will sync this site to the S3 bucket.
 ## Notes
 - If your bucket uses *Object Ownership = Bucket owner enforced* (ACLs disabled), the included policy is sufficient for public read. No `--acl public-read` needed.
 - For HTTPS + custom domain, add **CloudFront + ACM + Route 53** later.
+
+Commit test
